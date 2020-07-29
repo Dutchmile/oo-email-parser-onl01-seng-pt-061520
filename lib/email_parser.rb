@@ -4,11 +4,10 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-email_addresses = "avi@test.com", "arel@test.com"
+  def initialize
+    self.split(" ")
+  end
 
-parser = EmailAddressParser.new(email_addresses)
-
-def parse
 
 
 end
