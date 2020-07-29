@@ -4,9 +4,15 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-email_addresses = ["avi@test.com", "arel@test.com"]
+email_addresses = "avi@test.com", "arel@test.com"
 
-parser = EmailAddressParser.new
+parser = EmailAddressParser.new(email_addresses)
+
+def parse
+
+
+end
+
 
 
 end
