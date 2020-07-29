@@ -6,7 +6,7 @@ class EmailAddressParser
 
 email_addresses = ["avi@test.com", "arel@test.com"]
 
-parser = EmailAddressParser.new(email_addresses)
+parser = EmailAddressParser.new
 
 
 end
